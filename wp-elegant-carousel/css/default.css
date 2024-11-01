@@ -1,0 +1,142 @@
+
+	
+#main {
+	width: 100%;
+	position: absolute;
+	}
+	
+#main .inner2 {
+	height: 130px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	}
+	
+
+	
+	
+	/* horizontal ##############################*/
+.horizontal {
+	
+	width: 100%;
+	margin: 0 auto;
+	height: 230px;
+	}
+	
+.horizontal .carousel {
+	width: 1000px;
+	height: 230px;
+	margin-left: -50px;
+	margin-top: -20px;
+	position: relative;
+	}
+	
+.horizontal .carousel_container {
+	width: 940px; /* 3x220 + 3x1px margin */
+	height: 230px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 10px;
+	position: relative;
+	}
+	
+.horizontal ul  { 
+	height: 230px;
+	width: 1980px; /* will be overwritten by javascript*/
+}
+	
+.horizontal ul li {
+	width: 215px;
+	height: 230px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 1px;
+	position: relative
+	}
+
+.inner_img {
+	width: 215px;
+	height: 130px;
+	
+	}
+	
+.carousel_title{
+	width: 215px;
+	height: 10px;
+	text-align:center;
+	background:none;
+	margin-top:-5px;
+	
+	}
+	
+.carousel_desc{
+	width: 215px;
+	
+	margin-top:20px;
+	background:none;
+	
+	}
+
+.portfolio3_shadow
+{
+  width: 216px;
+  height: 160px;
+  background-color: transparent;
+  background-image: url("../images/portfolio3_shadow.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  margin-top: -12px;
+}	
+
+
+
+img.frame {
+-moz-box-shadow: 0 1px 10px #ccc;
+-webkit-box-shadow: 0 1px 10px #CCC;
+box-shadow: 0px 1px 10px #CCC;
+}
+	
+
+	
+.horizontal ul li a {
+	width: 215px;
+	height: 150px;
+	
+	display: block;
+	color: #000;
+	}
+	
+.horizontal ul li .caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	}
+	
+	
+.carousel_right, .carousel_left {
+	position: absolute;
+	width: 26px;
+	height: 51px;
+	display: block;
+	text-indent: -9999px;
+	}
+	
+.carousel_left { 
+	top: 58px; left:0px;
+	background: url(../images/prev.png) top left;
+	}
+.carousel_right { 
+	top: 58px; right:-20px;
+	background: url(../images/next.png) top left;
+	}
+.carousel_right:hover, .carousel_left:hover {
+	background-position: bottom left;
+	}
+	
+.disable { display: none; }
